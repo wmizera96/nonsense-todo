@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{B7FDE539-C4AD-4D69-8DF7-D3885D4A500A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nonsense-todo.data", "services\nonsense-todo.data\nonsense-todo.data.csproj", "{ADB24394-91A3-40EF-B1C1-36F93DC18D2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nonsense-todo.tasks", "nonsense-todo.tasks", "{D564FE67-E37B-445A-9C28-25DBE4EA685C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nonsense-todo.tasks.API", "services\nonsense-todo.tasks\nonsense-todo.tasks.API\nonsense-todo.tasks.API.csproj", "{666AF1D0-C8FE-4C2A-BFD3-41EC2F94FD96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nonsense-todo.tasks.BusinessLogic", "services\nonsense-todo.tasks\nonsense-todo.tasks.BusinessLogic\nonsense-todo.tasks.BusinessLogic.csproj", "{7FD980CA-472C-46D1-B173-69E910DF116D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nonsense-todo.tasks.Model", "services\nonsense-todo.tasks\nonsense-todo.tasks.Model\nonsense-todo.tasks.Model.csproj", "{4CF94FEA-06C6-43E7-89F3-18E151607381}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADB24394-91A3-40EF-B1C1-36F93DC18D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB24394-91A3-40EF-B1C1-36F93DC18D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB24394-91A3-40EF-B1C1-36F93DC18D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB24394-91A3-40EF-B1C1-36F93DC18D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{666AF1D0-C8FE-4C2A-BFD3-41EC2F94FD96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{666AF1D0-C8FE-4C2A-BFD3-41EC2F94FD96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{666AF1D0-C8FE-4C2A-BFD3-41EC2F94FD96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{666AF1D0-C8FE-4C2A-BFD3-41EC2F94FD96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FD980CA-472C-46D1-B173-69E910DF116D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD980CA-472C-46D1-B173-69E910DF116D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD980CA-472C-46D1-B173-69E910DF116D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD980CA-472C-46D1-B173-69E910DF116D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CF94FEA-06C6-43E7-89F3-18E151607381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF94FEA-06C6-43E7-89F3-18E151607381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF94FEA-06C6-43E7-89F3-18E151607381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF94FEA-06C6-43E7-89F3-18E151607381}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ADB24394-91A3-40EF-B1C1-36F93DC18D2A} = {B7FDE539-C4AD-4D69-8DF7-D3885D4A500A}
+		{D564FE67-E37B-445A-9C28-25DBE4EA685C} = {B7FDE539-C4AD-4D69-8DF7-D3885D4A500A}
+		{666AF1D0-C8FE-4C2A-BFD3-41EC2F94FD96} = {D564FE67-E37B-445A-9C28-25DBE4EA685C}
+		{7FD980CA-472C-46D1-B173-69E910DF116D} = {D564FE67-E37B-445A-9C28-25DBE4EA685C}
+		{4CF94FEA-06C6-43E7-89F3-18E151607381} = {D564FE67-E37B-445A-9C28-25DBE4EA685C}
+	EndGlobalSection
+EndGlobal
